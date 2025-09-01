@@ -1,0 +1,134 @@
+🛒 Retail Data Analysis using SQL
+
+This project demonstrates how SQL can be applied to analyze a retail dataset containing customers, product categories, products, and orders.
+
+
+---
+
+📊 Project Overview
+
+Created relational database tables (customers1, categories, products, orders1) to simulate a retail/e-commerce business.
+
+Wrote multiple SQL queries to extract insights about customers, sales, orders, and product trends.
+
+Built a SQL view to summarize sales and customer counts by category.
+
+Added screenshots of query execution and results for clarity.
+
+Used a variety of SQL functions, clauses, and joins to perform in-depth analysis.
+
+
+---
+
+📂 Repository Contents
+
+1_table_structure.sql — SQL file containing table creation scripts and schema definitions.
+
+2_analysis_queries.sql — SQL file with all queries used for data analysis.
+
+Query1.jpg, Query2.jpg, … — Screenshots showing query execution results.
+
+README.md — Documentation describing the project.
+
+---
+
+📌 Key Insights & Example Queries
+
+This project explores different aspects of a retail dataset using SQL:
+
+1. Customer Insights
+
+List customers with their total number of orders.
+
+Find customers who spent more than 1000.
+
+Identify customers whose spending is above the average.
+
+Calculate the average order value per customer.
+
+
+
+2. Sales Insights
+
+Calculate sales amount for each product category.
+
+Find the top 5 products by total sales.
+
+Show orders placed before a given date.
+
+
+
+3. Inventory Insights
+
+Identify products that have never been ordered.
+
+Find products with the highest number of orders.
+
+
+4. Views
+
+Created category_sales_summary view summarizing total sales and unique customers by category.
+
+
+---
+
+⚙️ How to Use
+
+1. Run 1_table_structure.sql to create the database schema.
+
+2. Run queries from 2_analysis_queries.sql to perform the analysis.
+
+3. Compare outputs with the provided screenshots.
+
+4. Modify or extend the queries to practice further SQL analysis.
+
+
+---
+
+🛠️ SQL Features Used
+
+This project demonstrates a wide range of SQL capabilities:
+
+Aggregate Functions: COUNT(), SUM(), AVG(), MAX(), ROUND().
+
+Clauses: WHERE, GROUP BY, HAVING, ORDER BY, LIMIT.
+
+Joins: INNER JOIN, LEFT JOIN.
+
+Views: Created reusable summarized results (category_sales_summary).
+
+Subqueries: Used for advanced analysis (e.g., top customers, max product orders).
+
+
+---
+
+📑 About the Dataset
+
+A sample retail dataset designed for SQL practice.
+
+Simulates real-world e-commerce transactions.
+
+Tables included:
+
+customers1 — customer details.
+
+categories — product categories.
+
+products — product details with category and price.
+
+orders1 — customer purchase transactions.
+
+
+---
+
+📖 Final Summary
+
+This project showcases how SQL can be used to:
+
+Build and manage relational tables for retail data.
+
+Perform customer, product, sales, and order analysis.
+
+Generate meaningful business insights from raw data.
+
+Apply queries, aggregations, subqueries, and views to solve analytical questions.
